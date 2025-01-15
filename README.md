@@ -1,7 +1,7 @@
 # Google Flights Airfare Forecast
 
 ## Description
-This project uses Google Flights data to analyze and forecast airfare trends through comprehensive data analysis and machine learning techniques. The goal is to identify key factors influencing airfare pricing and provide actionable insights for consumers and the travel industry.
+This project uses Google Flights data to analyze and forecast airfare trends through comprehensive data analysis and machine learning techniques. The goal is to identify key factors influencing airfare pricing and develop a model that can accurately forecast prices for unseen data.
 
 ## Data
 The dataset includes data for a subset of domestic flights within the US and contains the following key features:
