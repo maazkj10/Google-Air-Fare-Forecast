@@ -52,3 +52,6 @@ Key visualizations include:
 ## Results
 - Significant improvement in airfare prediction accuracy compared to benchmarks.
 - Visualized results provide actionable insights into air travel pricing trends.
+
+  ### Acknowledgments
+- This project is inspired by the tutorial by [Daniel Lee]. Special thanks to him for providing the insights that guided this project.
