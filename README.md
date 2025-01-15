@@ -1,7 +1,22 @@
 # Google Flights Airfare Forecast
 
 ## Description
-This project uses Google Flights data to analyze and forecast airfare trends. The focus is on identifying actionable insights for consumers and industry stakeholders through comprehensive data analysis and machine learning.
+This project uses Google Flights data to analyze and forecast airfare trends through comprehensive data analysis and machine learning techniques. The goal is to identify key factors influencing airfare pricing and provide actionable insights for consumers and the travel industry.
+
+## Data
+The dataset includes data for a subset of domestic flights within the US and contains the following key features:
+- **Destination**: The final location of the flight.
+- **Fare Class**: The ticket class (Economy, Business, First-Class).
+- **Delta**: The number of days between the booking date and the departure date.
+- **Departure Date**: The date of the flight.
+- **Airfare**: The price of the ticket (target variable).
+
+### Data Processing
+The data was preprocessed to:
+- Remove missing values.
+- Handle outliers that could skew predictions.
+- Transform categorical variables into machine-readable formats.
+- Conduct Exploratory Data Analysis (EDA) to uncover patterns and relationships.
 
 ## Key Findings
 1. **Price Trends**:
@@ -13,7 +28,7 @@ This project uses Google Flights data to analyze and forecast airfare trends. Th
 
 3. **Model Performance**:
    - Model: **XGBoost Regressor**
-   - **MAPE**:
+   - **Mean Absolute Percentage Error (MAPE)**:
      - Train: 36.46%
      - Validation: 60.72%
      - Test: 60.72%
@@ -21,19 +36,19 @@ This project uses Google Flights data to analyze and forecast airfare trends. Th
 
 4. **Class-Specific Insights**:
    - Economy fares have lower prediction error (MAPE: 59.67%).
-   - Business and First-Class fares show slightly higher errors.
+   - Business and First-Class fares exhibit slightly higher errors.
 
 ## Features
-- **Exploratory Data Analysis**: Patterns in booking and departure times, fare distributions.
-- **Machine Learning**: The XGBoost Regressor model was used for predictions, with hyperparameter tuning to optimize performance.
-- **Visualizations**: Airfare trends by airline, origin, and destination.
+- **Exploratory Data Analysis**: Analyzed patterns in booking and departure times, fare distributions, and other significant trends.
+- **Machine Learning**: The XGBoost Regressor model was implemented with hyperparameter tuning to achieve optimal performance.
+- **Visualizations**: Created to show airfare trends by airline, origin, destination, and other factors.
 
 ## Visualizations
-Include example plots or references to plots in your notebook:
-- Airfare distribution across airlines.
-- Price trends by booking and departure windows.
-- Feature importance from the XGBoost model.
+Key visualizations include:
+- **Airfare Distribution**: Comparing price distributions across different airlines.
+- **Booking vs. Departure Trends**: Analyzing how prices vary by booking date and departure date.
+- **Feature Importance Plot**: Showing the relative importance of different predictors in the model.
 
 ## Results
 - Significant improvement in airfare prediction accuracy compared to benchmarks.
-- Visualized results highlight actionable trends in air travel pricing.
+- Visualized results provide actionable insights into air travel pricing trends.
